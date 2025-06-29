@@ -4,18 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <h1>My React + Unity App</h1>
+      <h1>Lizard Wizard</h1>
       <iframe
         src="/LizardWizard/index.html"
-        width="960"
-        height="600"
-        style={{ border: "none" }}
-        title="LizardWizard Game"
-      ></iframe>
+        width="1280"
+        height="720"
+        style={{ border: "none", display: "block", margin: "0 auto" }}
+        title="LizardWizard"
+      />
     </div>
   )
 }
